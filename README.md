@@ -8,4 +8,4 @@ Run `npm install` and `ng serve` for a dev server. Navigate to `http://localhost
 
 ## UML of the Factory Method of these example
 
-![FactoryMethod](./src/assets/theme%20factory%20method.jpg)
+![FactoryMethod](src/assets/theme%20factory%20method.jpg)
