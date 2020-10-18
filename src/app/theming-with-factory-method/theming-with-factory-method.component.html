@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Select attribute with factory method</h1>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Theme selection</mat-label>
+    <mat-select [(ngModel)]="selectedTheme"  (selectionChange)="selectionChanged()">
+      <mat-option *ngFor="let theme of themes; trackBy: trackByFn" [value]="theme">
+        {{ theme.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+</div>

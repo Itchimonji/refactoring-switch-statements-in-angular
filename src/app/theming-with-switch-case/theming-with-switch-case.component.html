@@ -1,0 +1,15 @@
+
+<div class="container">
+  <h1>Select attribute with switch</h1>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Theme selection</mat-label>
+    <mat-select [(ngModel)]="selectedTheme"  (selectionChange)="selectionChanged()">
+      <mat-option value="dark">dark theme</mat-option>
+      <mat-option value="light">light theme</mat-option>
+      <mat-option value="red">red theme</mat-option>
+      <mat-option value="green">green theme</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+</div>
