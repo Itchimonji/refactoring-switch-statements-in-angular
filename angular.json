@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "avoid-switch-case-in-angular": {
+    "avoiding-switch-statements-in-angular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/avoid-switch-case-in-angular",
+            "outputPath": "dist/avoiding-switch-statements-in-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "avoid-switch-case-in-angular:build"
+            "browserTarget": "avoiding-switch-statements-in-angular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "avoid-switch-case-in-angular:build:production"
+              "browserTarget": "avoiding-switch-statements-in-angular:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "avoid-switch-case-in-angular:build"
+            "browserTarget": "avoiding-switch-statements-in-angular:build"
           }
         },
         "test": {
@@ -116,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "avoid-switch-case-in-angular:serve"
+            "devServerTarget": "avoiding-switch-statements-in-angular:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "avoid-switch-case-in-angular:serve:production"
+              "devServerTarget": "avoiding-switch-statements-in-angular:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "avoid-switch-case-in-angular"
+  "defaultProject": "avoiding-switch-statements-in-angular"
 }

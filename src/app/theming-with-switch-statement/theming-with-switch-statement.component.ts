@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-theming-with-switch-case',
-  templateUrl: './theming-with-switch-case.component.html',
-  styleUrls: ['./theming-with-switch-case.component.scss']
+  selector: 'app-theming-with-switch-statement',
+  templateUrl: './theming-with-switch-statement.component.html',
+  styleUrls: ['./theming-with-switch-statement.component.scss']
 })
-export class ThemingWithSwitchCaseComponent {
+export class ThemingWithSwitchStatementComponent {
 
   public selectedTheme: string;
 

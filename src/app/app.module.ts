@@ -7,13 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import {FormsModule} from '@angular/forms';
-import { ThemingWithSwitchCaseComponent } from './theming-with-switch-case/theming-with-switch-case.component';
+import { ThemingWithSwitchStatementComponent } from './theming-with-switch-statement/theming-with-switch-statement.component';
 import { ThemingWithFactoryMethodComponent } from './theming-with-factory-method/theming-with-factory-method.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ThemingWithSwitchCaseComponent,
+    ThemingWithSwitchStatementComponent,
     ThemingWithFactoryMethodComponent
   ],
   imports: [
